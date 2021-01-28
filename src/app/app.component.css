@@ -1,0 +1,33 @@
+.column{
+    width: 1048;
+    display: flex;
+    
+    padding: 45px;
+    font-size: 14px;
+    
+}
+.card-img-top{
+    float: right;
+}
+i{
+    height: 120px;
+    width: 120px;
+}
+
+
+
+.container{
+    height:600px;
+    
+}
+.row{
+    background-color: gray;
+    
+}
+div.i{
+    display: inline;
+}
+button{
+    height: 10px;
+    width: 30px;
+}

@@ -24,7 +24,9 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/font-awesome/css/font-awesome.min.css",
               "src/styles.css"
+              
             ],
             "scripts": []
           },
@@ -87,9 +89,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/font-awesome/css/font-awesome.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "node_modules/font-awesome/css/font-awesome.js"
+            ]
           }
         },
         "lint": {
@@ -120,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "locobuzz"
+  "defaultProject": "locobuzz",
+  "cli": {
+    "analytics": "f50a423a-356f-45dd-9631-f6488d57ebe7"
+  }
 }
